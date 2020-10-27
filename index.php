@@ -31,23 +31,3 @@ echo($row['imie']);
 }
 ?>
 </html>
-
-<?php
-//Określenie z bazą danych
-$servername="localhost";
-$username="marcin";
-$password="1234";
-$dbname="Nauka_SBD";
-
-//Łączenie z bazą danych
-$conn=new mysqli($servername, $username, $password, $dbname);
-
-//Wyświetlenie pełnej tabeli
-$sql="SELECT * FROM pracownicy";
-echo("<li>Wy".$sql);
-$result=$conn->query($mysql);
-while($row=$result->fetch_assoc())
-{
-echo($row['imie']);
-}
-?>
