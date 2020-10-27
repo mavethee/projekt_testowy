@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta name="viewport" content="width-device-wdith, initial scale=1.0" charset="UTF-8">
+<title>Document</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="a"></div>
 <?php
 //Podpisanie pracy
 echo("<h1>Marcin Mitura</h1>");
