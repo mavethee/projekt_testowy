@@ -6,9 +6,9 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="index.php" method="POST">
+    <form action="page.php" method="POST">
         <input type="text" name="name">
-        <input type="submit" value="wyślij w świat"
+        <input type="submit" value="send">
     </form>
 </body>
 </html>
